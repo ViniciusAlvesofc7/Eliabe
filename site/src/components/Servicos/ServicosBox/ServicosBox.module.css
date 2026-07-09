@@ -1,0 +1,258 @@
+.servicosBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    width: 400px;
+    max-width: 30vw;
+    transition: all 0.3s ease;
+
+    background: rgba(70, 70, 70, 0.27);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(70, 70, 70, 0.33);
+
+    &:hover {
+        border: 1px solid rgba(255, 123, 0, 1);
+    }
+
+    .servicosBoxHeader {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        gap: 30px;
+        padding: 0 20px;
+
+        .servicosBoxIcon {
+            width: 60px;
+            height: 60px;
+            background-color: #000;
+            border-radius: 25%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: orange;
+            font-size: 2.8rem;
+            box-shadow: -3px -4px 6px rgba(255, 123, 0, 0.6);
+            flex-shrink: 0;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            color: #fff;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        }
+    }
+
+    p {
+        font-size: 1rem;
+        color: #ccc;
+        text-align: justify;
+        max-width: 350px;
+    }
+
+    .servicosBoxList {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+
+        li {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            width: 48%;
+            font-size: 0.8rem;
+            color: #ccc;
+
+            span {
+                position: relative;
+                width: 0.4rem;
+                height: 0.4rem;
+                background-color: orange;
+                border-radius: 50%;
+                z-index: 2;
+            }
+        }
+
+        /* Container para centralizar o ponto e a sombra */
+        .dotContainer {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 1rem;
+            /* Espaço para a onda expandir */
+            height: 1rem;
+        }
+
+
+
+        /* A sombra que pulsa */
+        .spanShadow {
+            position: absolute;
+            width: 0.4rem;
+            height: 0.4rem;
+            background-color: rgba(255, 165, 0, 0.6);
+            border-radius: 50%;
+            z-index: 1;
+            animation: ping 1.2s ease-in-out infinite;
+        }
+    }
+
+    .servicosBoxButton {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 10px;
+
+        a {
+            font-size: 1rem;
+            color: orange;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .BtnSeta {
+            font-size: 1rem;
+            color: orange;
+            transition: all 0.3s ease;
+            display: inline-block;
+            animation: bounce 1.2s infinite;
+        }
+    }
+}
+
+@keyframes ping {
+    0% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+
+    80% {
+        transform: scale(3);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(3.5);
+        opacity: 0;
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(5px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* Responsivo - Tablet */
+@media (max-width: 1024px) {
+    .servicosBox {
+        width: 300px;
+        max-width: 45vw;
+        padding: 15px;
+        gap: 15px;
+
+        .servicosBoxHeader {
+            gap: 20px;
+            padding: 0 15px;
+
+            .servicosBoxIcon {
+                width: 50px;
+                height: 50px;
+                font-size: 2.2rem;
+            }
+
+            h2 {
+                font-size: 1.2rem;
+            }
+        }
+
+        p {
+            font-size: 0.95rem;
+            max-width: 280px;
+        }
+    }
+}
+
+/* Responsivo - Mobile */
+@media (max-width: 768px) {
+    .servicosBox {
+        width: 90vw;
+        max-width: 90vw;
+        padding: 15px;
+        gap: 12px;
+
+        .servicosBoxHeader {
+            gap: 15px;
+            padding: 0 10px;
+
+            .servicosBoxIcon {
+                width: 45px;
+                height: 45px;
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.1rem;
+            }
+        }
+
+        p {
+            font-size: 0.9rem;
+            max-width: 100%;
+        }
+    }
+}
+
+/* Responsivo - Mobile Pequeno */
+@media (max-width: 480px) {
+    .servicosBox {
+        width: 95vw;
+        max-width: 95vw;
+        padding: 12px;
+        gap: 10px;
+
+        .servicosBoxHeader {
+            gap: 12px;
+            padding: 0 8px;
+
+            .servicosBoxIcon {
+                width: 40px;
+                height: 40px;
+                font-size: 1.8rem;
+                min-width: 40px;
+            }
+
+            h2 {
+                font-size: 1rem;
+            }
+        }
+
+        p {
+            font-size: 0.85rem;
+            max-width: 100%;
+        }
+    }
+}

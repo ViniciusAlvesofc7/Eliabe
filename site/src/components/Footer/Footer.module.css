@@ -1,0 +1,26 @@
+.footer {
+    background-color: #111;
+    color: #aaa;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100vw;
+    max-width: 100vw;
+
+    p {
+        font-size: 0.6rem;
+
+        a{
+            color: orange;
+            text-decoration: none;
+            transition: all 0.3s ease;
+
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+}
