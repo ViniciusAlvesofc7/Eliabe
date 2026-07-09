@@ -32,6 +32,7 @@
         border-bottom: 1px solid orange;
         z-index: 2;
         text-align: center;
+        font-weight: semibold;
     }
 
     .mask {
@@ -120,7 +121,7 @@
 
         & h1 {
             margin-top: 1.5rem;
-            font-size: 1.5rem;
+            font-size: 1.6rem;
         }
 
         .mask {
@@ -147,7 +148,7 @@
 
         & h1 {
             margin-top: 1rem;
-            font-size: 1.2rem;
+            font-size: 1.4rem;
         }
 
             .mask {
