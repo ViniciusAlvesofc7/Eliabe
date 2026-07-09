@@ -73,26 +73,28 @@ const Depoimentos = () => {
             animate="visible"
             exit="exit"
           >
-            <div className={styles.cardTopie}>
-              <motion.img
-                src={depoimentoAtual.imagem}
-                alt={depoimentoAtual.nome}
-                className={styles.imagem}
-                whileHover={{ scale: 1.1 }}
-                transition={{ type: "spring", stiffness: 300 }}
-              />
-              <div className={styles.info}>
-                <h3 className={styles.nome}>{depoimentoAtual.nome}</h3>
-                <p className={styles.profissao}>{depoimentoAtual.profissao}</p>
+            <div className={styles.topRow}>
+              <div className={styles.cardTopie}>
+                <motion.img
+                  src={depoimentoAtual.imagem}
+                  alt={depoimentoAtual.nome}
+                  className={styles.imagem}
+                  whileHover={{ scale: 1.1 }}
+                  transition={{ type: "spring", stiffness: 300 }}
+                />
+                <div className={styles.info}>
+                  <h3 className={styles.nome}>{depoimentoAtual.nome}</h3>
+                  <p className={styles.profissao}>{depoimentoAtual.profissao}</p>
+                </div>
               </div>
-            </div>
 
-            <div className={styles.estrelas}>
-              {[...Array(5)].map((_, i) => (
-                <span key={i} className={styles.estrela}>
-                  ★
-                </span>
-              ))}
+              <div className={styles.estrelas}>
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className={styles.estrela}>
+                    ★
+                  </span>
+                ))}
+              </div>
             </div>
 
             <p className={styles.texto}>{depoimentoAtual.texto}</p>

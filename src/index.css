@@ -10,25 +10,5 @@ body {
   width: 100%;
   overflow-x: hidden;
   background-color: #f5f5f5;
-  font-size: 16px;
-}
-/* Responsivo - Tablet */
-@media (max-width: 1024px) {
-  body {
-    font-size: 15px;
-  }
-}
-
-/* Responsivo - Mobile */
-@media (max-width: 768px) {
-  body {
-    font-size: 16px;
-  }
-}
-
-/* Responsivo - Mobile Pequeno */
-@media (max-width: 480px) {
-  body {
-    font-size: 15px;
-  }
+  font-size: 1rem;
 }

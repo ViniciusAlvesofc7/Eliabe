@@ -14,10 +14,25 @@ const Home = () => {
         video.muted = true;
         video.playsInline = true;
 
-        video.style.opacity = 0;
+        // Garantir que o vídeo ocupe toda a área e corte nas laterais (object-fit: cover)
+        video.style.width = '100%';
+        video.style.height = '100dvh';
+        video.style.objectFit = 'cover';
+        video.style.objectPosition = 'center';
+        video.style.position = 'absolute';
+        video.style.inset = '0';
+        video.style.left = '0';
+        video.style.top = '0';
+        video.style.opacity = '0';
+        video.style.transition = 'opacity 400ms ease-in-out';
 
         video.addEventListener('canplay', () => {
-            video.style.opacity = 1;
+            // esconder imagem de fallback quando vídeo estiver pronto
+            if (midiaBackground) {
+                const img = midiaBackground.querySelector('img');
+                if (img) img.style.display = 'none';
+            }
+            video.style.opacity = '1';
         });
 
         if (midiaBackground) {

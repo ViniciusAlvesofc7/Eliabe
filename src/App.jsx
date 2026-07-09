@@ -1,4 +1,3 @@
-import './App.css'
 import Biblioteca from './components/Biblioteca/Biblioteca'
 import Contato from './components/Contato/Contato'
 import Depoimentos from './components/Depoimentos/Depoimentos'
