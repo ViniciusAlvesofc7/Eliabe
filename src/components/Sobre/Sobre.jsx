@@ -7,10 +7,10 @@ const Sobre = () => {
             <div className={styles.sobreContainer}>
                 <div className={styles.sobreImg}>
                     <motion.img
-                    initial={{ filter: 'grayscale(100%)'}}
-                    whileInView={{ filter: 'grayscale(0%)' }}
-                    transition={{ duration: 3, ease: 'easeInOut' }}
-                    src="../image/eliabe.png" alt="Eliabe" />
+                        initial={{ filter: 'grayscale(100%)' }}
+                        whileInView={{ filter: 'grayscale(0%)' }}
+                        transition={{ duration: 3, ease: 'easeInOut' }}
+                        src="../image/eliabe.png" alt="Eliabe" />
 
                 </div>
 
@@ -27,11 +27,9 @@ const Sobre = () => {
                     </motion.h2>
                     <motion.p
                         initial={{ opacity: 0, x: 50, efect: 'blur(5px)' }}
-                        whileInView={{ opacity: 1, x: 0, efect: 'blur(0px)'}}
+                        whileInView={{ opacity: 1, x: 0, efect: 'blur(0px)' }}
                         transition={{ duration: 1, ease: 'easeInOut', delay: 0.5 }}>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias suscipit earum culpa! Inventore similique, fuga molestiae praesentium fugiat provident repellat nobis itaque doloribus modi vel corrupti minima amet dignissimos nostrum?
-                        Dolorum cumque hic, facere quia alias nobis accusamus et animi deleniti aliquid itaque quis cupiditate aut maiores ab commodi at soluta similique dolorem ad ratione autem quo aliquam optio? Iste.
-                        Eaque alias, culpa voluptatibus earum vel esse ea voluptatem facere quos nesciunt. Optio doloremque debitis maiores? Eius facilis numquam repudiandae ullam odit voluptate? Quisquam nobis corporis error explicabo in accusamus?</motion.p>
+                        <strong>Eliabe Lima</strong> é um produtor de vídeo e fotógrafo que une técnica, sensibilidade e fé em cada projeto. Como Cristão Evangélico, ele enxerga o seu trabalho como uma vocação divina. Por isso, Eliabe não busca apenas registrar imagens, mas entregar o seu absoluto melhor em cada detalhe. Sua filosofia profissional é clara: tudo o que faz é direcionado primeiramente a Deus, como um ato de adoração, e, consequentemente, ao cliente, como um selo de excelência, dedicação e respeito.</motion.p>
                 </motion.div>
             </div>
 

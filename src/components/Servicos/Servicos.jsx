@@ -18,28 +18,12 @@ const Servicos = () => {
         whileInView={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1, ease: 'easeInOut' }}
         className={styles.servicosBox}>
-        <ServicosBox icon={<RiCameraAiLine />} title="Ensaio Fotografico" text={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate"} 
-        inclusos={["Sessão de fotos em estúdio ou externa", "Edição profissional das melhores fotos", "Entrega em alta resolução", "Galeria online para visualização e download"]}
-        />
-
-        <ServicosBox icon={<BsCameraReels />} title="Cobertura de Eventos" text={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate"} 
-        inclusos={["Cobertura de eventos sociais e corporativos ", "Edição profissional das melhores fotos", "Entrega em alta resolução", "Galeria online para visualização e download"]}
+        <ServicosBox icon={<RiCameraAiLine />} title="Fotografia e Filmagem" text={"Produção completa de videoclipes evangélicos com captação, direção criativa e edição profissional para destacar cada momento da sua música. Todos os pacotes incluem 2 teasers exclusivos (pré e pós-lançamento), fotos profissionais para thumbnail, frete gratuito para gravações na região metropolitana e opção de imagens aéreas cinematográficas com drone. Locações pagas e a criação das artes finais ficam sob responsabilidade do cliente."} 
+        inclusos={["Fotos Tratadas", "Filmagem Profissional", "Cobertura Completa", "Entrega Online"]}
         />
         
-        <ServicosBox icon={< FaUserTie />} title="Retrato Corporativo" text={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate"} 
-        inclusos={["Sessão de fotos em estúdio ou externa", "Edição profissional das melhores fotos", "Entrega em alta resolução", "Galeria online para visualização e download"]} 
-        />
-        
-        <ServicosBox icon={<PiHamburger />} title="Fotografia Gastronomica" text={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate"} 
-        inclusos={["Sessão de fotos em estúdio ou externa", "Edição profissional das melhores fotos", "Entrega em alta resolução", "Galeria online para visualização e download"]} 
-        />
-        
-        <ServicosBox icon={<BiMoviePlay />} title="Video Clip" text={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate"} 
-        inclusos={["Sessão de fotos em estúdio ou externa", "Edição profissional das melhores fotos", "Entrega em alta resolução", "Galeria online para visualização e download"]} 
-        />
-        
-        <ServicosBox icon={<LiaPhotoVideoSolid />} title="Edição de Fotos e Vídeos" text={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate"} 
-        inclusos={["Sessão de fotos em estúdio ou externa", "Edição profissional das melhores fotos", "Entrega em alta resolução", "Galeria online para visualização e download"]} 
+        <ServicosBox icon={<BiMoviePlay />} title="Videoclipe Evangélico" text={"Registro profissional de casamentos, aniversários, ensaios fotográficos, feiras, congressos, eventos corporativos e festas acadêmicas, capturando cada detalhe com qualidade e sensibilidade. As imagens são entregues tratadas em alta resolução, acompanhadas de vídeos, disponibilizados por meio de um link para download. Um serviço pensado para preservar seus melhores momentos com excelência e praticidade"} 
+        inclusos={["Produção Cinematográfica", "Teasers Inclusos", "Fotos para Thumbnail", "Drone em 4K (Opcional)"]} 
         />
 
       </motion.div>
