@@ -7,7 +7,7 @@ import style from './Contato.module.css'
 const Contato = () => {
     return (
         <section className={style.contato}>
-            <h1>Videos</h1>
+            <h1>Vídeos</h1>
 
             <div className={style.contatoVideos}>
                 <div className={style.contatoVideo}>
