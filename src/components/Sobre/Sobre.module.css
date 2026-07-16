@@ -139,10 +139,10 @@
             padding: 30px 20px;
             
             .sobreImg {
-                width: 40vw;
+                width: auto;
+                height: auto;
                 max-height: 45vh;
                 max-width: 300px;
-                min-height: 300px;
                 flex-shrink: 0;
 
                 img {
@@ -185,8 +185,8 @@
             padding: 20px 15px;
             
             .sobreImg {
-                width: 70vw;
-                height: 35vh;
+                width: auto;
+                height: auto;
                 max-width: 350px;
                 max-height: 280px;
                 min-height: 150px;

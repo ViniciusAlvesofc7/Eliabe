@@ -11,28 +11,28 @@ const Depoimentos = () => {
       nome: "Maria Silva",
       profissao: "Noiva",
       texto: "O ensaio ficou incrível! A sensibilidade nas fotos e a direção no vídeo fizeram nosso dia especial ser eternizado do jeito certo.",
-      imagem: "https://i.pravatar.cc/150?img=1",
+      imagem: "https://i.pravatar.cc/150?img=5",
     },
     {
       id: 2,
       nome: "João Santos",
       profissao: "Empresário",
       texto: "O material para a campanha ficou impecável. A captação de imagem e o tratamento final deram uma identidade forte ao projeto.",
-      imagem: "https://i.pravatar.cc/150?img=2",
+      imagem: "https://i.pravatar.cc/150?img=11",
     },
     {
       id: 3,
       nome: "Ana Costa",
       profissao: "Produtora de Eventos",
       texto: "O vídeo foi entregue dentro do prazo e a equipe trouxe uma narrativa visual muito criativa. Recomendamos para casamentos e eventos corporativos.",
-      imagem: "https://i.pravatar.cc/150?img=3",
+      imagem: "https://i.pravatar.cc/150?img=9",
     },
     {
       id: 4,
       nome: "Carlos Oliveira",
       profissao: "Fotógrafo",
       texto: "Trabalho profissional e sensível. A direção de arte e a pós-produção elevaram o resultado para outro patamar.",
-      imagem: "https://i.pravatar.cc/150?img=4",
+      imagem: "https://i.pravatar.cc/150?img=15",
     },
   ];
 
