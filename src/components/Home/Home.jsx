@@ -56,7 +56,7 @@ const Home = () => {
             <div className={styles.content}>
                 <div className={styles.textContainer}>
                     <h1>Eliabe Lima</h1>
-                    <p>Videommaker e Fotógrafo Profissional</p>
+                    <p>Videomaker e Fotógrafo Profissional</p>
                 </div>
 
                 <div className={styles.circularTextContainer}>
