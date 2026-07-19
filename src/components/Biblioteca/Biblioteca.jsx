@@ -3,15 +3,17 @@ import { motion, AnimatePresence } from 'framer-motion';
 import styles from './Biblioteca.module.css';
 
 const images = [
-    '/image/Biblioteca/img1.jpg',
+    '/image/Biblioteca/img6.jpg',
+    '/image/Biblioteca/img8.jpg',
+    '/image/Biblioteca/img7.jpg',
     '/image/Biblioteca/img2.jpg',
+    '/image/Biblioteca/img1.jpg',
     '/image/Biblioteca/img3.jpg',
     '/image/Biblioteca/img4.jpg',
-    '/image/Biblioteca/img5.jpg',
 ];
 
 export default function Biblioteca() {
-    const [activeIndex, setActiveIndex] = useState(2); // Começa na imagem do meio
+    const [activeIndex, setActiveIndex] = useState(0); // Começa na imagem do meio
 
     const next = () => setActiveIndex((prev) => (prev + 1) % images.length);
     const prev = () => setActiveIndex((prev) => (prev - 1 + images.length) % images.length);

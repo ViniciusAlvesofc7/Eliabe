@@ -18,11 +18,11 @@ const Servicos = () => {
         whileInView={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1, ease: 'easeInOut' }}
         className={styles.servicosBox}>
-        <ServicosBox icon={<RiCameraAiLine />} title="Fotografia e Filmagem" text={"Produção completa de videoclipes evangélicos com captação, direção criativa e edição profissional para destacar cada momento da sua música. Todos os pacotes incluem 2 teasers exclusivos (pré e pós-lançamento), fotos profissionais para thumbnail, frete gratuito para gravações na região metropolitana e opção de imagens aéreas cinematográficas com drone. Locações pagas e a criação das artes finais ficam sob responsabilidade do cliente."} 
+        <ServicosBox icon={<RiCameraAiLine />} title="Fotografia e Filmagem" text={"Registro profissional de casamentos, aniversários, ensaios fotográficos, feiras, congressos, eventos corporativos e festas acadêmicas, capturando cada detalhe com qualidade e sensibilidade. As imagens são entregues tratadas em alta resolução e os  vídeos, disponibilizados por meio de um link para download. Um serviço pensado para preservar seus melhores momentos com excelência!"} 
         inclusos={["Fotos Tratadas", "Filmagem Profissional", "Cobertura Completa", "Entrega Online"]}
         />
         
-        <ServicosBox icon={<BiMoviePlay />} title="Videoclipe Evangélico" text={"Registro profissional de casamentos, aniversários, ensaios fotográficos, feiras, congressos, eventos corporativos e festas acadêmicas, capturando cada detalhe com qualidade e sensibilidade. As imagens são entregues tratadas em alta resolução, acompanhadas de vídeos, disponibilizados por meio de um link para download. Um serviço pensado para preservar seus melhores momentos com excelência e praticidade"} 
+        <ServicosBox icon={<BiMoviePlay />} title="Videoclipe Evangélico" text={"Produção de videoclipes evangélicos com captação, direção criativa e edição profissional para destacar cada momento da sua música. Todos os pacotes incluem 2 teasers exclusivos (pré e pós-lançamento), 10 fotos digitais, tirada no dia, não cobro a gasolina para gravações na região metropolitana do Recife e temos opção de imagens aéreas cinematográficas com drone valor extra por fora. Local pago da Gravação por conta do Cliente e a artes da miniatura do YouTube ficam por conta do cliente."} 
         inclusos={["Produção Cinematográfica", "Teasers Inclusos", "Fotos para Thumbnail", "Drone em 4K (Opcional)"]} 
         />
 
